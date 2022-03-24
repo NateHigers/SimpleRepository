@@ -4,6 +4,12 @@ using namespace std;
 
 int main() {
 
-	cout << "Hi";
+	int a,b;
+	
+	cout << "Numbers : ";
+	
+	cin >> a >> b;
+	
+	cout << a+b;
 	return 0;
 }
